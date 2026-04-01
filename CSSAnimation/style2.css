@@ -1,0 +1,54 @@
+*{
+
+
+}
+
+@keyframes anshu {
+
+    0%{
+        top: 0px;
+        left: 0px;
+
+    }
+    
+    25%
+    {
+         top: 0px;
+        left: 500px;
+
+        color: aquamarine;
+        background-color: rgb(21, 255, 0);
+    }
+
+    50%
+    {
+ top: 500px;
+        left: 500px;
+        color: black;
+         background-color: rgb(255, 81, 0);
+    }
+
+    75%{ top: 500px;
+        left: 0px;
+         background-color: rgb(4, 0, 255);
+
+    }
+
+    100%
+    {
+         top: 0px;
+        left: 0px;
+         background-color: rgb(21, 255, 0);
+    }
+}
+
+#box
+{  width:100px;
+    height:100px ;
+   
+    border: 1px solid black;
+    position: absolute;
+
+    animation: anshu 10s linear 0s infinite reverse;
+
+}

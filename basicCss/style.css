@@ -1,3 +1,36 @@
+#col1{
+
+    border:1px solid rgb(30, 235, 92);
+         
+    color: rgb(255, 255, 255);
+
+    border-color: rgb(238, 26, 26) ;
+
+    border-radius: 10px;
+
+     box-shadow:10px 5 5 5 black;
+
+     font-family: cursive ;
+
+     font-style:italic;
+     font-variant: small-caps;
+
+     !important
+
+     
+
+    
+}
+
+
+
+
+span{
+    background-color: rgb(11, 64, 209);
+}8r7
+
+
++
 
 
 
