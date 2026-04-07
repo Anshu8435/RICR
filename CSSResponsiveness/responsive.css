@@ -1,0 +1,191 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+#Navbar {
+  background-color: rgb(180, 180, 236);
+  display: flex;
+  justify-content: space-between;
+  color: rgb(8, 0, 255);
+  padding: 8px;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 99;
+}
+
+.NavLinks {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+  span,
+  p,
+  button {
+    cursor: pointer;
+  }
+
+  button {
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+  }
+}
+
+div {
+  border: 1px solid #000;
+}
+
+#outerDiv {
+  display: flex;
+}
+
+#leftPart {
+  height: fit-content;
+  width: 70%;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 15px;
+}
+
+#rightPart {
+  height: 85vh;
+  padding: 20px;
+  width: 30%;
+
+  ol {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width:1024px)
+{
+   #leftPart{
+    grid-template-columns: auto auto auto;
+    
+   } 
+
+    #rightPart{
+    background-color: rgb(255, 0, 170);
+   }
+}
+
+@media screen and (max-width:760px)
+{
+   #leftPart{
+    grid-template-columns: auto auto ;
+
+
+   }
+
+    #rightPart{
+    background-color: rgb(83, 34, 219);
+   }
+}
+
+@media screen and (max-width:420px)
+{
+   #leftPart{
+    grid-template-columns: auto ;
+  
+   }
+   
+   #rightPart{
+    background-color: aqua;
+   }
+} */
+ *{
+  margin: 0%;
+ }
+
+ #header{
+
+  
+    position:fixed;
+     z-index: 99;
+     .head{
+
+  border: 1px solid skyblue;
+     display: flex;
+      font-weight: 400;
+     justify-content: space-between;
+
+     padding-left: 50px;
+     padding-right: 50px;
+   
+
+  .leftouterdiv{
+
+    width:fit-content;
+   
+      gap: 65px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+     font-family: Arial, Helvetica, sans-serif;
+font-size: large;
+     margin: 20px;
+    
+  }
+
+  .Navbar{gap: 45px;
+   display: flex;
+   justify-content: space-between;
+  }
+
+  
+.rightouter{
+
+    width:350px;
+    
+      gap: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     font-family: Arial, Helvetica, sans-serif;
+font-size: large;
+     margin: 20px;
+     
+.leftNav{
+
+      gap: 20px;
+   display: flex;
+   justify-content: center;
+   justify-content: space-between;
+
+   align-items: center;
+
+  
+
+
+ button{
+       
+            color: rgb(243, 243, 248);
+            background-color:rgb(26, 105, 165);
+            width: 155px;
+            height: 45px;
+            border-radius: 8px;
+            border: none;
+            font-size: large;
+            box-shadow: 5px 5px 0px 0px rgba(20, 113, 185, 0.733);
+           
+      
+              cursor: pointer;
+  
+          
+        }
+     }
+  }
+
+
+}
+ }
+
+
+
+
+
+
