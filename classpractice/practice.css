@@ -2,12 +2,16 @@
   --main-color : pink;
   --main-text : blue;
 }
-
+*{
+  margin: 0;
+  padding: 0;
+}
 
 
 
 .vd
 {
+  top: 0%;
 
   width: 1000px;
   height: 250px;
@@ -16,12 +20,17 @@
     background-color: var(--main-color5);
   
     border: 4px solid #999;
- 
+    position: sticky;
+    z-index: 100;
+
 }
 
 .vd:hover{
 
+
   background-color: aqua;
+
+  
 }
 
 

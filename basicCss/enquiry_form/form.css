@@ -103,7 +103,7 @@ font-size: large;
   .container{
     display: grid;
     grid-template-columns: 35% 15% 20% 1%;
-      width: 500 px;
+     
       height: 540px;
       background-color:rgb(18, 81, 129);
       position: sticky;
