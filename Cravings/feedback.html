@@ -20,7 +20,7 @@
 
      <header id="head">
 
-    <div class="vw-50 vh-50  d-flex justify-content-between align-items-center px-5 " >
+   <div class="vw-50 vh-50  d-flex justify-content-between align-items-center px-5 " >
 
        <a href="./index.html"> <img src="./images/logo-light.png" alt="image" id="logo"></a>
 
@@ -41,24 +41,26 @@
    </header>
 
 
-     <section>
-    <div >
+   <main>
+  
+    <div class=" position-relative d-flex justify-content-end ">
+      <div class="">
+       <img src="./images/feedback-bg.png" alt="image" class="w-100 h-100" >
+    </div>
 
-      <div class="position-relative d-flex justify-content-end "     >
-        <img src="./images/login-register.jpg" alt="dcsd"  width="1343px" height="800px"  >
 
-        <div  class="position-absolute top-0   text-center bg-white rounded-3 m-5 p-2 " 
-             style="width: 480px; height: 690px; "  >
+     <div  class="position-absolute top-0   text-center bg-white rounded-3 m-3  p-2 overflow-y-scroll" 
+             style="width: 480px; height: 550px;  "  >
       
-          <div class=" mx-4 px-2 my-3 "> 
-            <h3 id="font" class="fw-bolder ">Create Account</h3>
-            <p id="font" class="text-secondary fw-medium">Join us as a Customer, Restaurant, or Rider</p>
+          <div class=" mx-4 px-2 my-3 h-100"> 
+            <h3 id="font" class="fw-bolder "> Share Feedback</h3>
+            <p id="font" class="text-secondary fw-medium"> Help us improve your Cravings experience.</p>
 
 
               <div class=" border border-1 border-white text-start fs-6 mb-3  ">
 
 
-                <div  id="font-family"class="" style="line-height:32px; ">
+                <!-- <div  id="font-family"class="" style="line-height:32px; ">
                     
                     Register as:
 
@@ -72,78 +74,65 @@
 
                   
                     
-                  </div>
+                  </div> -->
 
-                  <br>
-
-                  <div  id="font-family"class="" style="line-height:32px; ">
-                    
                   
+                  <div  id="font-family"class=" lh-lg" >
+                    
+                    Full Name
                     <button class="w-100  border rounded-2 bg-transparent p-1  text-start text-secondary">Enter  Your full Name</button>
                     
                   </div>
-                  <br>
-
-                   <div  id="font-family"class="" style="line-height:32px; ">
+                 
+                 <br>
+                   <div  id="font-family"class="lh-lg" >
                     
-                  
+                     Email
                     <button class="w-100  border rounded-2 bg-transparent p-1  text-start text-secondary">Enter Your email</button>
                     
                   </div>
                   <br>
 
-                   <div  id="font-family"class="" style="line-height:32px; ">
+                   <div  id="font-family"class="lh-lg" >
                     
-                  
-                    <button class="w-100  border rounded-2 bg-transparent p-1  text-start text-secondary">Enter Your phone number</button>
+                    Feedback Category
+                    <br >
+                    <select class="w-100  border rounded-2 bg-transparent p-2  text-start text-secondary" >
+                      <option value="category" class="py-5"> select a category</option>
+                      <option value="category" class="py-5"> Food Quality </option>
+                      <option value="category" class="py-5"> Delivery Experience</option>
+                      <option value="category" class="py-5"> App & Wbsite</option>
+                      <option value="category" class="py-5"> Customer Support</option>
+                      <option value="category" class="py-5"> Pricing & value</option>
+                    </select>
                     
                   </div>
                   <br>
-                  <div style="line-height: 32px;" id="font-family">
+                  <div class="lh-lg d-flex gap-2 " id="font-family">
                     
-                   
-                   <button class="w-100 p-1 border rounded-2 bg-transparent text-start text-secondary d-flex justify-content-between">Enter Your password </button>
                     
-                  </div>
-
-
-                   <br>
-                  <div style="line-height: 32px;" id="font-family">
-                    
-                   
-                   <button class="w-100 p-1 border rounded-2 bg-transparent text-start text-secondary d-flex justify-content-between">Confirm Your password </button>
+                    <p class="gap-2 "> Overall  Rating <i class="bi bi-star fs-5"> </i> <i class="bi bi-star fs-5"></i> <i class="bi bi-star fs-5"></i> <i class="bi bi-star fs-5"></i> <i class="bi bi-star fs-5"></i> </p>
                     
                   </div>
-                   <br>
-                  <div class="d-flex justify-content-start gap-2">
+
+             
+                  <div class="lh-lg" id="font-family">
                     
-                    <div id="font-family" class="fw-normal text-secondary"><input type="checkbox" name="checkbox" id="checkbox"> I agree to the</div>
-                      <div >
-                        <p  class="fw-normal fs-small"id="font"> terms and conditions.</p>
-                       
-                      </div>
-
+                   Your Feedback
+                   <textarea class="w-100  border rounded-2 bg-transparent text-start text-secondary "> Tell us about your experience</textarea>
+                    
                   </div>
-
+                <br>
+                  
                 
 
-                  <div id="font"><button id="font-family"  class="w-100 p-3 border border-0 rounded-2 text-white text-center  fw-semibold"> Register</button></div>
+                  <div id="font"><button id="font-family"  class="w-100 p-3 border border-0 rounded-2 text-white text-center  fw-semibold"> Submit Feedback</button></div>
                   
+                  <br>
 
               </div>
 
-              <div class=" d-flex  justify-content-center  ">
-
-                    
-                    <div  class="  fs-6  fw-normal ">
-                  <p id="font-family" class="fw-normal text-secondary"> Already registered? </p> 
-                    </div>
-                      <div class="text-decoration-none fs-6  " id="font">
-                <p id="font-family" class="fw-normal"> Login here</p>
-              </div>
-                    
-                    
-              </div>
+             
             
               
 
@@ -155,21 +144,31 @@
            
 
         </div>
-         
-        
-      </div>
     </div>
+    
+   
 
-</section>
-
-
-
-
+   </main>
 
 
 
 
-   <footer id="footer">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer id="footer">
+    <br>
       <div class="d-block justify-content-center text-light ">
         <div class="d-flex justify-content-center align-items-center fs-6 mt-3 pt-3 ">
           <p class="mid">--- Your favorite food delivery platform connecting customers with

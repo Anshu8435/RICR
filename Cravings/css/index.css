@@ -1,0 +1,429 @@
+:root {
+  --color-primary:          #c2410c;  /* Brand orange-red */
+  --color-primary-content:  #ffffff;  /* Text on primary background */
+  --color-secondary:        #6b7280;  /* Muted gray text */
+  --color-neutral:          #3f3f46;  /* Dark sections (footer, bars) */
+  --color-neutral-content:  #f4f4f5;  /* Text on dark backgrounds */
+  --color-base-100:         #fff8f1;  /* Warm white page background */
+  --color-base-200:         #f5ede5;  /* Slightly darker warm white */
+  --color-base-300:         #e7d9c9;  /* Borders and dividers */
+  --color-base-content:     #2d1b10;  /* Default dark text */
+  --color-error:            #ef4444;  /* Red for error states */
+  --color-success:          #22c55e;  /* Green for success states */
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family:  ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+
+
+}
+  #head
+{
+   top: 0%;
+   
+    width: 100%;
+    height: fit-content;
+ background-color: var(--color-primary);
+ text-decoration: var(--color-primary);
+
+
+ position: sticky;
+z-index: 99;
+
+
+
+}
+
+
+
+#logo
+{
+      height:60px;
+   width: 85px;
+}
+
+
+
+/* ==home-page===================================================================== */
+
+.search{
+
+       border: 1px solid whitesmoke;
+
+       width: 100%;
+       height: 10px;
+
+       .button{
+        width: fit-content;
+        height: fit-content;
+        background-color: #22c55e;
+       }
+      
+}
+#main{
+ width: fit-content;
+ height: 650px;
+
+ position: relative;
+ z-index: 0;
+}
+
+
+#hero {
+ 
+  width: fit-content;
+
+ 
+  position: relative;
+
+   justify-content: center;
+
+   row-gap: 10px;
+   
+.shade{
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.445);
+}
+
+#box{
+  
+  position: absolute;
+  margin-left: 30%;
+
+  top: 23%;
+  
+}
+  
+}
+
+#hero-text{
+
+
+  
+  position: absolute;
+  width: 900px;
+ top: 150px;
+left:220px;
+
+
+    
+
+
+text-transform: capitalize;
+
+a{
+  background: var(--color-primary);
+}
+}
+
+#main2{
+
+  
+
+  height: 550px;
+  padding-left: 50px;
+  padding-right: 50px ;
+
+
+ background: #C2410C;
+background: linear-gradient(180deg, rgba(194, 65, 12, 1) 5%, rgba(255, 255, 255, 1) 66%);
+.outer{
+   
+  #food{
+    font-size:small;
+    /* border: 1px solid grey;
+   
+    width: 45px;
+    height: 25px; */
+    
+  
+  }
+  #food2{
+    font-size: 15px;
+  }
+    padding: 15px;
+
+      width:  1200px;height: 800px;
+
+      line-height: 20px;
+
+     
+
+      .heading{
+
+       
+        width: fit-content;
+        margin-left: 55px;
+
+        padding: 5px;
+
+        
+            }
+
+       .cards{
+       
+        width:1200px;
+        height: 450px;
+
+        display: flex;
+       justify-content: center;
+
+       align-items: center;
+       gap: 25px;
+        border: none;
+transition: all 0.3s ease;
+
+     
+     
+        .card{
+           border: none;
+             border-radius: 20px;
+          width: 350px;
+
+          height: 420px;
+
+        text-decoration: none;
+        
+      
+  box-shadow:  0px 2px 10px 0px rgba(128, 128, 128, 0.288);
+          
+         
+      
+          
+        }
+
+
+       }     
+
+
+      
+       }
+
+}
+
+
+cards:hover{
+          transform: translateY(-5px);
+
+}
+
+
+/* main-3 */
+
+#main3{
+  
+padding-top: 10px;
+
+  
+  height: 600px;
+  background:var(--color-base-100);
+}
+
+/* =======main4===================================================================================================== */
+ 
+#main4{
+
+  background:var(--color-primary-content);
+padding-top: 5px;
+
+ 
+  height: 600px;
+
+svg{
+  color:rgb(248, 190, 42);
+ }
+
+ 
+}
+#fonty{
+
+
+
+font-family: ui-sans-serif,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+ #background{
+    background: var(--color-base-100);
+    box-shadow:  1px 2px 15px 0px rgba(128, 128, 128, 0.267);
+  
+
+  }
+
+  #background{
+     transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  }
+  
+ 
+  
+
+  #shadow{
+
+  }
+  #bgg{
+    background: var(--color-primary);
+  }
+
+  /* =====main-5================================================================================= */
+
+.main5{
+
+  width:100%;
+  height: 290px;
+
+  background: var(--color-primary);
+  #button{
+    color:  var(--color-primary);
+  }
+  
+}
+
+
+/* =====footer---------------------------------------------- */
+
+#footer{
+
+  letter-spacing: 0.5px;
+
+  
+  width: 100%;
+   background-color: var(--color-neutral);
+
+   color: var(--color-base-300);
+
+position:absolute;
+
+
+.mid{
+margin-left: 60px;
+
+  font-size:15px;
+
+ line-height:10px;
+
+ p{
+  font-size: small;
+
+  color:rgb(233, 229, 229);
+ }
+}
+.base{
+  font-size: small;
+  
+}
+   
+
+}
+
+#foot_logo
+{
+
+   padding-top: px;
+   height:fit-content;
+   width:10%;
+
+}
+
+
+
+.mid{
+margin-left: 60px;
+
+  font-size:15px;
+
+ line-height:10px;
+
+ p{
+  font-size: small;
+
+  color:rgb(233, 229, 229);
+ }
+}
+.base{
+  font-size: small;
+  
+}
+
+
+/* ========login-page============================================================================ */
+
+
+#jj{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+#font{
+
+
+  color: var(--color-primary);
+ 
+button{
+  background-color: var(--color-primary);
+}
+  
+}
+
+#font:hover{
+ transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.space{
+    line-height: 25px;
+}
+
+#med{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+/* ==================about page */
+
+
+.shade{
+  
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.445);
+}
+
+#about{
+
+  margin-left: 250px;
+  margin-top: 100px;
+  margin-right: 100px;
+
+  
+}
+
+
+#cravings{
+ color: var(--color-primary);
+  }
+#container{
+  background:var(--color-neutral);
+  
+  h3{
+    color: var(--color-primary);
+  }
+  p{
+    color:var(--color-primary-content);
+  }
+  i{
+    color:yellow;
+  }
+}

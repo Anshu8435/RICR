@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./index.css" />
+    <title>Cravings</title>
+    <link rel="stylesheet" href="./css/index.css" />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -17,148 +17,506 @@
     <link rel="stylesheet" href=" https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
   </head>
   <body>
-   <header id="head">
+        <header id="head">
 
-    <div class="vw-50 vh-50  d-flex justify-content-between align-items-center px-5 " >
-
-       <img src="./logo.png" alt="image" id="logo">
+          <div class="vw-50 vh-50  d-flex justify-content-between align-items-center px-5 " >
 
 
-       <div>
+            <img src="./images/logo-light.png"  alt="image" id="logo"  >
 
-        <button class=" bg-transparent btn btn-light border-0 m-3 text-light" <a href="./login.html "></a>Login</button>
+          
 
-        <button class=" btn btn-light text-danger rounded-1" <a href="./register.html"  class="text-danger"></a>Register</button>
-       </div>
-      
-    </div>
-   </header>
 
-   <!-- <main class="m-5 ms-5"> -->
+            <div >
 
-   
+              <a href="./login.html" target="_self" 
+        class="btn  m-3 text-light  text-decoration-none">
+        Login
+      </a>
+              
 
-      <div class="w-50">
-          <div class="fs-1 fw-bolder fst-* m-5 mt-5 border  text-center text-light bg-danger ">
-          <p>Your Favrouti Food,</p>
-            <p>Delivered Fast</p> 
-        </div>
-          <div class=" fs-5 fw-bold fst-normal text-light vw-25 vh-25 border  text-center">
-            <p>Order from thousands of restaurants and get it delivered to your doorstep</p>
+                <a href="./register.html" target="_self" class=" btn btn-light text-danger rounded-1" >Register</a>
+              
+            </div>
+            
           </div>
+        </header>
 
-          <div class="vw-25 vh-25 border  text-center">
-            <button class=" bg-transparent btn btn-light border-opacity-100 m-3 text-light" <a href="./login.html "></a>Sign Up</button>
-            <button class="btn btn-light mb-4><a href="#"></a>Order Now</button>
-          </div>
+      <section id="main">
 
-          <div class="vw- vh-25 border align-content-start text-center " ><button class="btn btn-outline-light bg-light w-75 "><i class="bi bi-search form-control-color "></i></button></div>
+
+
+      <div id="hero" >
+
         
-     </div>   
-         
-     
+            <img src="./images/hero-bg.png" alt="image" width="1343px" height="650px"  >
 
-     
 
-       
-    </div>
+            <div class="shade"></div>
+
+           <div  class="d-block z-3" id="hero-text">
+
+                <div class=" display-4 fw-bolder p-2  text-center text-light  " id="fff">
+                Your Favourite Food, <br>Delivered Fast
+                  
+              </div>
+            
+                <div class=" fs-5 fw-normal fst-normal text-light   text-center ">
+                  <p>Order from thousands of restaurants and get it delivered to your doorstep</p>
+                </div>
+
+
+                <div class=" text-center   ">
+                  
+                  <a href="./register.html" target="_self" class="  btn m-3 text-light fw-semibold px-4 py-2 ">Sign Up</a>
+                  <a href="./order-now.html" class=" btn m-3 text-dark fw-semibold px-4 py-2 bg-white" >Order Now</a>
+                  
+                  
+                  
+                </div>
+
+                <div class="p-1 " >
+                                       <!-- <p class="text-start bg-white text-center text-light border-0 rounded-3  fw-semibold  w-100"><i class="bi bi-search p-5"></i></p>  -->
+
+                    <label for="Search" class="bg-white rounded-3  w-100"><p class="pt-2 ps-3 fw-semibold text-secondary "><i class="bi bi-search pe-3 text-black "></i> Search restaurants or dishes...</p></label>
+ 
+                     
+                  </div>
+                
+        
+                
+              </div>
+
+
+            </div>
+
+
+
+              
+              
+          
+          
+      </div>
+
+      
+
+      </section>
+
 
     
-   
-   
-
-   
-
-   
 
 
-  
- 
-</main>
+
+
+
+
+
+
+
+
+
+
+
+
+      <section id="main2">
+
+
+      <div class="outer" >
+            <div class=" heading ">
+            <p class="fw-bolder fs-3 fst-* text-light ">Featured Restaurants</p>
+            <p class="text-light ">3 resturants available</p>
+           </div>
+            <div class="cards">
+              
+
+              <div class="card ">
+              <div class="d-grid lh-sm" id="food2">
+                <img src="./images/resturant-card1.png" alt="card1" class=" rounded-top-3 w-100   " >
+                 <div class=" px-3 pt-2  pb-5">
+                  <div class="">
+                  <p class=" "><b class="text-black fw-bolder fs-5"> Under Mango Tree</b> <p class="" > Enjoy the thrill of grill and barbecue at Under The Mango Tree restaurant at Jehan Numa Palace, Bhopal. Head here now!</p></p>
+                 </div>
+                    <span class="d-flex gap-2 text-center w-100  mx-1  border-bottom  ">
+                  
+                  <span><p id="food" class="bg-secondary-subtle rounded-1 px-2 py-1">Indian</p></span>
+                  <span><p id="food" class="bg-secondary-subtle rounded-1 px-2 py-1">Chinese</p></span>
+                  <span><p id="food" class="bg-secondary-subtle rounded-1 px-2 py-1">Ittalian</p></span>
+
+                    </span>
+                  
+                  
+                  <div class="text-center w-100  px-1   py-1 m-1">
+
+                    
+                      <button  class=" text-center text-light border-0 rounded-3  fw-semibold  w-100" id="bgg"><p class="text-center pt-2">Explore Menu</p> </button>
+                     
+                  </div>
+
+
+                  </div>
+          
+                 
+
+                  
+                  
+               
+                </div>
+                  </div>
+                 
+             <div class="card ">
+              <div class="" id="food2">
+                <img src="./images/restaurant-card2.png" alt="card1" class=" rounded-top-3 w-100   " height="36%">
+                 <div class=" px-3 pt-2  pb-5">
+                  <div class="">
+                  <p class=" "><b class="text-black fw-bolder fs-5">Raj Darbar</b> <p class="" > Raj Darbar is a one-of-a-kind Indian restaurant that offers a unique dining experience for families and friends with a dhaba-style theme.</p></p>
+                 </div>
+                    <span class="d-flex gap-2 text-center w-100  mx-1  border-bottom  ">
+                  
+                  <span><p id="food" class="bg-secondary-subtle rounded-1 px-2 py-1">Indian</p></span>
+                  <span><p id="food" class="bg-secondary-subtle rounded-1 px-2 py-1">Chinese</p></span>
+                  <span><p id="food" class="bg-secondary-subtle rounded-1 px-2 py-1">Ittalian</p></span>
+
+                    </span>
+                  
+                  
+                  <div class="text-center w-100  px-1   py-1 m-1">
+
+                    
+                      <button  class=" text-center text-light border-0 rounded-3  fw-semibold  w-100" id="bgg"><p class="text-center pt-2">Explore Menu</p> </button>
+                     
+                  </div>
+
+
+                  </div>
+          
+                 
+
+                  
+                  
+               
+                </div>
+                  </div>
+
+
+           <div class="card ">
+              <div class="d-grid lh-sm" id="food2">
+
+                
+               
+                <img src="./images/restaurant-card3.png" alt="card1" class=" rounded-top-3 w-100    " height="195px">
+                 <div class=" px-3 pt-2  pb-5">
+                  <div class="">
+                  <p class=" "><b class="text-black fw-bolder fs-5"> Countryside Culture</b> <p class="" >A hidden gem away from the city, offering lush green meadows and peaceful walking paths for relaxation.</p></p>
+</div>
+                    <span class="d-flex gap-2 text-center w-100  mx-1  border-bottom  ">
+                  
+                  <span><p id="food" class="bg-secondary-subtle rounded-1 px-2 py-1">Indian</p></span>
+                  <span><p id="food" class="bg-secondary-subtle rounded-1 px-2 py-1">Chinese</p></span>
+                  
+
+                    </span>
+                  
+                  
+                  <div class="text-center w-100  px-1   py-1 m-1">
+
+                    
+                      <button  class=" text-center text-light border-0 rounded-3  fw-semibold  w-100" id="bgg"><p class="text-center pt-2">Explore Menu</p> </button>
+                     
+                  </div>
+
+
+                  </div>
+          
+                 
+
+                  
+                  
+               
+                </div>
+                  </div>
+              
+          </div>
+      </div>
+
+      <div>
+
+        
+      </div>
+
+
+
+      </section>
+
+
+      <section>
+
+        <div id="main3">
+             
+              <div class=" m-5 text-center p-0   ">
+                <p class="fs-1 fw-bold text-black ">Cravings by the Numbers</p>
+                <p class="fs-5 fw-light text-dark">See why millions trust us for their daily food delivery needs</p>
+                
+                
+              </div>
+
+              <div class="d-flex fs-1  justify-content-evenly justify-content-center align-items-center m-4 gap-4   p-5" >
+
+                <div class=" py-5  text-center  bg-white rounded-2 px-5 lh-1 shadow-sm "  >
+                  <p class="display-5 fw-bolder" id="font"> 2.5M+ </p>
+                 
+                  <p class="fs-5 fw-semibold fst-normal ">Successful Deliveries</p>
+                  <p class="fs-6 lh-sm">Orders delivered with <br> care and precision</p>
+                 </div>
+                <div class=" p-5  text-center  bg-white rounded-2 pb-5 lh-1 shadow-sm"  >
+                  <p class="display-5 fw-bolder" >500K+</p>
+                 
+                  <p class="fs-5 fw-semibold fst-normal">Happy Customers</p>
+                  <p class="fs-6 lh-sm">Satisfied users enjoying <br> delicious food</p>
+                 </div>
+                 <div class=" p-5  text-center  bg-white rounded-2 pb-5 lh-1 shadow-sm"  >
+                  <p class="display-5 fw-bolder" id="font">5K+</p>
+                 
+                  <p class="fs-5  fw-semibold fst-normal">Partner Restaurants</p>
+                  <p class="fs-6 lh-sm">Restaurants serving <br> amazing cuisine</p>
+                 </div>
+                 <div class=" p-5  text-md-center  bg-white rounded-2 pb-4 lh-1 shadow-sm"  >
+                  <p class="display-5 fw-bolder" id="font">1K+</p>
+                 
+                  <p class="fs-5 fw-semibold fst-normal lh-sm">Active Delivery <br> Partners</p>
+                  <p class="fs-6 lh-sm">Riders ensuring quick and <br> safe delivery</p>
+                 </div>
+              </div>
+         
+
+        </div>
+
+      </section>
+
+
+       <section>
+
+        <div id="main4">
+             
+              <div class=" m-5 text-center p-0   ">
+                <p class="fs-1 fw-bold text-black " id="fonty">What Our Customers Say</p>
+                <p class="fs-5 fw-normal text-dark">Real feedback from real food lovers</p>
+                
+                
+              </div>
+
+              <div class="d-flex fs-1  justify-content-evenly  m-4 gap-4    p-5"  >
+
+                <div class=" py-2  rounded-2 px-5 lh-1 "  id="background"  >
+                  
+
+                  <div id="font " class="pb-3">
+
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-yellow-400" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M394 480a16 16 0 0 1-9.39-3L256 383.76 127.39 477a16 16 0 0 1-24.55-18.08L153 310.35 23 221.2a16 16 0 0 1 9-29.2h160.38l48.4-148.95a16 16 0 0 1 30.44 0l48.4 149H480a16 16 0 0 1 9.05 29.2L359 310.35l50.13 148.53A16 16 0 0 1 394 480z"></path></svg>
+                    
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-yellow-400" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M394 480a16 16 0 0 1-9.39-3L256 383.76 127.39 477a16 16 0 0 1-24.55-18.08L153 310.35 23 221.2a16 16 0 0 1 9-29.2h160.38l48.4-148.95a16 16 0 0 1 30.44 0l48.4 149H480a16 16 0 0 1 9.05 29.2L359 310.35l50.13 148.53A16 16 0 0 1 394 480z"></path></svg>
+                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-yellow-400" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M394 480a16 16 0 0 1-9.39-3L256 383.76 127.39 477a16 16 0 0 1-24.55-18.08L153 310.35 23 221.2a16 16 0 0 1 9-29.2h160.38l48.4-148.95a16 16 0 0 1 30.44 0l48.4 149H480a16 16 0 0 1 9.05 29.2L359 310.35l50.13 148.53A16 16 0 0 1 394 480z"></path></svg>
+                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-yellow-400" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M394 480a16 16 0 0 1-9.39-3L256 383.76 127.39 477a16 16 0 0 1-24.55-18.08L153 310.35 23 221.2a16 16 0 0 1 9-29.2h160.38l48.4-148.95a16 16 0 0 1 30.44 0l48.4 149H480a16 16 0 0 1 9.05 29.2L359 310.35l50.13 148.53A16 16 0 0 1 394 480z"></path></svg>
+                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-yellow-400" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M394 480a16 16 0 0 1-9.39-3L256 383.76 127.39 477a16 16 0 0 1-24.55-18.08L153 310.35 23 221.2a16 16 0 0 1 9-29.2h160.38l48.4-148.95a16 16 0 0 1 30.44 0l48.4 149H480a16 16 0 0 1 9.05 29.2L359 310.35l50.13 148.53A16 16 0 0 1 394 480z"></path></svg>
+
+                  </div>
+              
+
+                  <p class="fs-5 fw-semibold fst-normal ">Amazing Service!</p>
+                  <p class="fs-6 lh-sm">"The food arrived hot and fresh. The <br> delivery was incredibly fast. Highly <br> impressed with Cravings' service!"</p>
+                  <div class="d-flex  pb-3 gap-2">
+                      
+                       <div class=" rounded-circle p-3  text-start text-white fs-6 fw-bolder fst-normal  " style=" width: fit-content; height:50%;" id="bgg">
+                        AJ  </div>
+                   
+                    <div  class="   text-start pt-1  ">
+                     
+                      <p class="fs-6 lh-base"><b>Arun J.</b> <br> Verified Buyer</p>
+                    </div>
+                   
+                  </div>
+                    
+                    
+                  
+                 </div>
+
+
+                 <div class=" py-2  rounded-2 px-5 lh-1 shadow-sm"  id="background"  >
+
+                  <div id="font " class="pb-3">
+
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-yellow-400" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M394 480a16 16 0 0 1-9.39-3L256 383.76 127.39 477a16 16 0 0 1-24.55-18.08L153 310.35 23 221.2a16 16 0 0 1 9-29.2h160.38l48.4-148.95a16 16 0 0 1 30.44 0l48.4 149H480a16 16 0 0 1 9.05 29.2L359 310.35l50.13 148.53A16 16 0 0 1 394 480z"></path></svg>
+                    
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-yellow-400" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M394 480a16 16 0 0 1-9.39-3L256 383.76 127.39 477a16 16 0 0 1-24.55-18.08L153 310.35 23 221.2a16 16 0 0 1 9-29.2h160.38l48.4-148.95a16 16 0 0 1 30.44 0l48.4 149H480a16 16 0 0 1 9.05 29.2L359 310.35l50.13 148.53A16 16 0 0 1 394 480z"></path></svg>
+                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-yellow-400" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M394 480a16 16 0 0 1-9.39-3L256 383.76 127.39 477a16 16 0 0 1-24.55-18.08L153 310.35 23 221.2a16 16 0 0 1 9-29.2h160.38l48.4-148.95a16 16 0 0 1 30.44 0l48.4 149H480a16 16 0 0 1 9.05 29.2L359 310.35l50.13 148.53A16 16 0 0 1 394 480z"></path></svg>
+                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-yellow-400" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M394 480a16 16 0 0 1-9.39-3L256 383.76 127.39 477a16 16 0 0 1-24.55-18.08L153 310.35 23 221.2a16 16 0 0 1 9-29.2h160.38l48.4-148.95a16 16 0 0 1 30.44 0l48.4 149H480a16 16 0 0 1 9.05 29.2L359 310.35l50.13 148.53A16 16 0 0 1 394 480z"></path></svg>
+                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-yellow-400" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M394 480a16 16 0 0 1-9.39-3L256 383.76 127.39 477a16 16 0 0 1-24.55-18.08L153 310.35 23 221.2a16 16 0 0 1 9-29.2h160.38l48.4-148.95a16 16 0 0 1 30.44 0l48.4 149H480a16 16 0 0 1 9.05 29.2L359 310.35l50.13 148.53A16 16 0 0 1 394 480z"></path></svg>
+
+                  </div>
+              
+
+                  <p class="fs-5 fw-semibold fst-normal ">Best App Ever!</p>
+                  <p class="fs-6 lh-sm">"Easy to use interface, wide variety of <br> restaurants, and quick delivery. I order <br> from Cravings every week!"</p>
+                  <div class="d-flex  pb-3 gap-2">
+                      
+                       <div class=" rounded-circle p-3  text-start text-white fs-6 fw-bolder fst-normal  " style=" width: fit-content; height:50%;" id="bgg">
+                        SP  </div>
+                   
+                    <div  class="   text-start pt-1  ">
+                      
+                      <p class="fs-6 lh-base"><b>Sneha P.</b> <br> Verified Buyer</p>
+                    </div>
+                   
+                  </div>
+                    
+                    
+                  
+                 </div>
+
+                 <div class=" py-2  rounded-2 px-5 lh-1 shadow-sm"  id="background"  >
+
+                  <div id="font " class="pb-3">
+
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-yellow-400" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M394 480a16 16 0 0 1-9.39-3L256 383.76 127.39 477a16 16 0 0 1-24.55-18.08L153 310.35 23 221.2a16 16 0 0 1 9-29.2h160.38l48.4-148.95a16 16 0 0 1 30.44 0l48.4 149H480a16 16 0 0 1 9.05 29.2L359 310.35l50.13 148.53A16 16 0 0 1 394 480z"></path></svg>
+                    
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-yellow-400" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M394 480a16 16 0 0 1-9.39-3L256 383.76 127.39 477a16 16 0 0 1-24.55-18.08L153 310.35 23 221.2a16 16 0 0 1 9-29.2h160.38l48.4-148.95a16 16 0 0 1 30.44 0l48.4 149H480a16 16 0 0 1 9.05 29.2L359 310.35l50.13 148.53A16 16 0 0 1 394 480z"></path></svg>
+                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-yellow-400" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M394 480a16 16 0 0 1-9.39-3L256 383.76 127.39 477a16 16 0 0 1-24.55-18.08L153 310.35 23 221.2a16 16 0 0 1 9-29.2h160.38l48.4-148.95a16 16 0 0 1 30.44 0l48.4 149H480a16 16 0 0 1 9.05 29.2L359 310.35l50.13 148.53A16 16 0 0 1 394 480z"></path></svg>
+                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-yellow-400" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M394 480a16 16 0 0 1-9.39-3L256 383.76 127.39 477a16 16 0 0 1-24.55-18.08L153 310.35 23 221.2a16 16 0 0 1 9-29.2h160.38l48.4-148.95a16 16 0 0 1 30.44 0l48.4 149H480a16 16 0 0 1 9.05 29.2L359 310.35l50.13 148.53A16 16 0 0 1 394 480z"></path></svg>
+                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-yellow-400" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M394 480a16 16 0 0 1-9.39-3L256 383.76 127.39 477a16 16 0 0 1-24.55-18.08L153 310.35 23 221.2a16 16 0 0 1 9-29.2h160.38l48.4-148.95a16 16 0 0 1 30.44 0l48.4 149H480a16 16 0 0 1 9.05 29.2L359 310.35l50.13 148.53A16 16 0 0 1 394 480z"></path></svg>
+
+                  </div>
+              
+
+                  <p class="fs-5 fw-semibold fst-normal ">Excellent Choices!</p>
+                  <p class="fs-6 lh-sm">"Love the variety of restaurants <br> available. Found my new favorite spot <br> through Cravings. Definitely worth it!"</p>
+                  <div class="d-flex pb-3 gap-2">
+                      
+                       <div class=" rounded-circle p-3  text-start text-white fs-6 fw-bolder fst-normal  " style=" width: fit-content; height:50%;" id="bgg">
+                        RJ  </div>
+                   
+                    <div  class="  text-start pt-1  ">
+                      
+                      <p class="fs-6 lh-base"><b>Raj Kumar</b> <br> Verified Buyer</p>
+                    </div>
+                   
+                  </div>
+                    
+                    
+                  
+                 </div>
+                 
+
+
+
+                
+                
+              </div>
+         
+
+        </div>
+
+      </section>
+
+
+      <section>
+
+        <div class="main5" >
+
+          <br>
+           <div class=" mt-3 text-center   m-5 ">
+                <p class="fs-1 fw-bold text-white " id="fonty">Become a Restaurant Partner</p>
+                <p class="fs-6  fw-medium text-light">
+Grow your business with Cravings. Join thousands of restaurants already delivering with us.</p>
+                <br>
+                <button class="btn btn-light px-4 rounded-3 py-1 fw-semibold" id="button"><p class="m-2"> Partner With Us</p> </button>
+              </div>
+
+
+
+        </div>
+
+      </section>
+
 
 
    <footer id="footer">
+      <div class="d-block justify-content-center text-light ">
+        <div class="d-flex justify-content-center align-items-center fs-6 mt-3 pt-3 ">
+          <p class="mid">--- Your favorite food delivery platform connecting customers with
+          restaurants and riders. ---</p>
+        </div>
+
+        <br />
+     
+        <div
+          class="d-flex justify-content-around align-items-start  mx-5 text-capitalize  border-bottom   pb-5   "
+        >
+          <img
+            src="./images/logo-circle.png"
+            alt="logo"
+            class="rounded-circle"
+            id="foot_logo"
+          />
+
+          
 
 
-    <div class=" d-block  justify-content-center text-light mx-lg-5 ">
+          <div class="mid">
+            <h6 class="fw-bold fs-6">Quick Links</h6>
+            <br>
+            <br>
+            <p > <a href="./index.html" class="text-decoration-none text-light"> Home</a></p>
+            <p > <a href="./about.html" class="text-decoration-none text-light"> About</a></p>
+            <p > <a href="./register.html" class="text-decoration-none text-light"> Order Now</a></p>
+            
+          </div>
+
+          <div class="mid">
+            <h6 class="fw-bold fs-6">For Restaurants</h6>
+      <br>
+      <br>
+            <p > <a href="./register.html" class="text-decoration-none text-light"> Partner With Us</a></p>
+           <p > <a href="./login.html" class="text-decoration-none text-light"> Restaurant Dashboard</a></p>
+          </div>
 
 
-       
+          <div class="mid">
+            <h6 class="fw-bold fs-6">For Riders</h6>
+      <br>
+      <br>
 
-           <div class=" text-center  pt-4">--- Your favorite food delivery platform connecting customers with restaurants and riders. ---</div>
+       <p > <a href="./register.html" class="text-decoration-none text-light"> Become a Rider</a></p>
+            
+           <p > <a href="./login.html" class="text-decoration-none text-light"> Rider Dashboard</a></p>
+            
+          </div>
 
-        
-               <br>
-        <div class="  d-flex justify-content-between  text-light p-3 pt-0 border-bottom m-1">
-                    
-                    <img src="./footer_image.png" alt="logo" class="rounded-circle " id="foot_logo" >
-                
+          <div class="mid">
+            <h6 class="fw-semibold fs-6">Feedback & support</h6>
+      <br>
+      <br>
+            <p > <a href="./feedback.html" class="text-decoration-none text-light"> Submit Feedback </a></p>
+            <p > <a href="./helpcenter.html" class="text-decoration-none text-light"> Help Center</a></p>
+            <p > <a href="./contact.html" class="text-decoration-none text-light"> Contact Us</a></p>
+            
+          </div>
 
-                    <div class="   h-25 ">
-                        <h5 >Quick Links</h5>
-                     <br>
-                       <p > Home</p>
-                       <p>About</p> 
-                        <p>Order Now</p>
-                    </div>
-
-                    <div class="   h-25">
-                        <h5>For Restaurants</h5>
-                     <br>
-                       <p>Partner With Us</p>
-                       <p>Restaurant Dashboard</p> 
-                        
-                    </div>
-
-                   <div class=" h-25 ">
-                        <h5>For Riders</h5>
-                     <br>
-                       <p>Become a Rider</p>
-                       <p>Rider Dashboard</p> 
-                       
-                    </div>
-
-                    <div class="  h-25">
-                        <h5>Feedback & support</h5>
-                     <br>
-                       <p>Submit Feedback</p>
-                       <p>Help Center</p> 
-                        <p>Contact Us</p>
-                    </div>
-           
+          
         </div>
 
 
-    <div class="d-flex  justify-content-between py-3 ">
-
-        <p cls>© 2026 Cravings. All rights reserved.</p>
-        <div class="d-flex justify-content-between gap-4 ">
-            <span>Privacy Policy</span>
-            <span>Terms of Service</span>
-            <span>Site Map</span>
+<div class="base">
+        <div class="d-flex justify-content-between p-2 mx-5  gap-5   my-4">
+          <p >© 2026 Cravings. All rights reserved.</p>
+          <div class="d-flex  gap-5 ">
+            <span><a href="./privacy-policy.html" class="text-decoration-none text-light"> Privacy Policy </a></span>
+            <span><a href="./terms-service.html" class="text-decoration-none text-light"> Terms of Service</a></span>
+            <span><a href="./site-map..html" class="text-decoration-none text-light">  Site Map</a></span>
+          </div>
         </div>
+</div>
+      </div>
+    </footer>
 
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-
-   
-
-    
-
-    
-   </footer>
 
 
 
