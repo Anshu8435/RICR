@@ -76,7 +76,7 @@
                 </div>
 
                 <div class="p-1 " >
-                                       <!-- <p class="text-start bg-white text-center text-light border-0 rounded-3  fw-semibold  w-100"><i class="bi bi-search p-5"></i></p>  -->
+                                     
 
                     <label for="Search" class="bg-white rounded-3  w-100"><p class="pt-2 ps-3 fw-semibold text-secondary "><i class="bi bi-search pe-3 text-black "></i> Search restaurants or dishes...</p></label>
  
@@ -103,25 +103,11 @@
       </section>
 
 
-    
 
+      <section id="cards-bg">
 
-
-
-
-
-
-
-
-
-
-
-
-
-      <section id="main2">
-
-
-      <div class="outer" >
+        <section id="main2">
+ <div  class="outer" >
             <div class=" heading ">
             <p class="fw-bolder fs-3 fst-* text-light ">Featured Restaurants</p>
             <p class="text-light ">3 resturants available</p>
@@ -132,9 +118,12 @@
               <div class="card ">
               <div class="d-grid lh-sm" id="food2">
                 <img src="./images/resturant-card1.png" alt="card1" class=" rounded-top-3 w-100   " >
+                <div class="position-absolute z-2  w-100 text-end p-2 ">
+                  <button id="rating" class="rounded-pill border-0  text-white px-3 py-2"> <i class=" bi bi-star-fill"></i> <b> 3.6 </b> </button>
+                </div>
                  <div class=" px-3 pt-2  pb-5">
-                  <div class="">
-                  <p class=" "><b class="text-black fw-bolder fs-5"> Under Mango Tree</b> <p class="" > Enjoy the thrill of grill and barbecue at Under The Mango Tree restaurant at Jehan Numa Palace, Bhopal. Head here now!</p></p>
+                  <div>
+                  <p ><b class="text-black fw-bolder fs-5"> Under Mango Tree</b> <p class="" > Enjoy the thrill of grill and barbecue at Under The Mango Tree restaurant at Jehan Numa Palace, Bhopal. Head here now!</p></p>
                  </div>
                     <span class="d-flex gap-2 text-center w-100  mx-1  border-bottom  ">
                   
@@ -164,8 +153,13 @@
                   </div>
                  
              <div class="card ">
+               <div class="position-absolute z-2  w-100 text-end p-2 ">
+                  <button id="rating" class="rounded-pill border-0  text-white px-3 py-2"> <i class=" bi bi-star-fill"></i> <b> 4.8 </b> </button>
+                </div>
               <div class="" id="food2">
                 <img src="./images/restaurant-card2.png" alt="card1" class=" rounded-top-3 w-100   " height="36%">
+
+                 
                  <div class=" px-3 pt-2  pb-5">
                   <div class="">
                   <p class=" "><b class="text-black fw-bolder fs-5">Raj Darbar</b> <p class="" > Raj Darbar is a one-of-a-kind Indian restaurant that offers a unique dining experience for families and friends with a dhaba-style theme.</p></p>
@@ -204,6 +198,15 @@
                 
                
                 <img src="./images/restaurant-card3.png" alt="card1" class=" rounded-top-3 w-100    " height="195px">
+                 <div class="position-absolute z-2  w-100 text-end p-2 ">
+
+                  <button id="rating" class="rounded-pill border-0  text-white px-3 py-2"> <i class=" bi bi-star-fill"></i> <b> 4.1 </b> </button>
+                </div>
+
+
+                 <div class="position-absolute z-2  w-100 text-end p-2 ">
+                  <button id="rating" class="rounded-pill border-0  text-white px-3 py-2"> <i class=" bi bi-star-fill"></i> <b> 3.6 </b> </button>
+                </div>
                  <div class=" px-3 pt-2  pb-5">
                   <div class="">
                   <p class=" "><b class="text-black fw-bolder fs-5"> Countryside Culture</b> <p class="" >A hidden gem away from the city, offering lush green meadows and peaceful walking paths for relaxation.</p></p>
@@ -237,11 +240,11 @@
               
           </div>
       </div>
+        </section>
 
-      <div>
+     
 
-        
-      </div>
+      
 
 
 
@@ -268,7 +271,7 @@
                   <p class="fs-6 lh-sm">Orders delivered with <br> care and precision</p>
                  </div>
                 <div class=" p-5  text-center  bg-white rounded-2 pb-5 lh-1 shadow-sm"  >
-                  <p class="display-5 fw-bolder" >500K+</p>
+                  <p class="display-5 fw-bolder" id="fontt" >500K+</p>
                  
                   <p class="fs-5 fw-semibold fst-normal">Happy Customers</p>
                   <p class="fs-6 lh-sm">Satisfied users enjoying <br> delicious food</p>
@@ -280,7 +283,7 @@
                   <p class="fs-6 lh-sm">Restaurants serving <br> amazing cuisine</p>
                  </div>
                  <div class=" p-5  text-md-center  bg-white rounded-2 pb-4 lh-1 shadow-sm"  >
-                  <p class="display-5 fw-bolder" id="font">1K+</p>
+                  <p class="display-5 fw-bolder" id="fontt">1K+</p>
                  
                   <p class="fs-5 fw-semibold fst-normal lh-sm">Active Delivery <br> Partners</p>
                   <p class="fs-6 lh-sm">Riders ensuring quick and <br> safe delivery</p>
@@ -427,7 +430,8 @@
                 <p class="fs-6  fw-medium text-light">
 Grow your business with Cravings. Join thousands of restaurants already delivering with us.</p>
                 <br>
-                <button class="btn btn-light px-4 rounded-3 py-1 fw-semibold" id="button"><p class="m-2"> Partner With Us</p> </button>
+               
+                <a href="./register.html" class=" btn btn-light px-4 rounded-3 py-1 fw-semibold" id="button"><p class="m-2"> Partner With Us</p></a>
               </div>
 
 
@@ -466,7 +470,7 @@ Grow your business with Cravings. Join thousands of restaurants already deliveri
             <br>
             <p > <a href="./index.html" class="text-decoration-none text-light"> Home</a></p>
             <p > <a href="./about.html" class="text-decoration-none text-light"> About</a></p>
-            <p > <a href="./register.html" class="text-decoration-none text-light"> Order Now</a></p>
+            <p > <a href="./order-now.html" class="text-decoration-none text-light"> Order Now</a></p>
             
           </div>
 

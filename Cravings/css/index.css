@@ -123,6 +123,11 @@ a{
 }
 }
 
+/* =============main2 */
+
+#cards-bg{
+background: linear-gradient(180deg, rgba(194, 65, 12, 1) 5%, rgba(255, 255, 255, 1) 66%);
+}
 #main2{
 
   
@@ -132,8 +137,9 @@ a{
   padding-right: 50px ;
 
 
- background: #C2410C;
-background: linear-gradient(180deg, rgba(194, 65, 12, 1) 5%, rgba(255, 255, 255, 1) 66%);
+  
+ 
+
 .outer{
    
   #food{
@@ -194,7 +200,9 @@ transition: all 0.3s ease;
       
   box-shadow:  0px 2px 10px 0px rgba(128, 128, 128, 0.288);
           
-         
+        #rating{
+          background:var(--color-primary);
+        } 
       
           
         }
@@ -224,6 +232,10 @@ padding-top: 10px;
   
   height: 600px;
   background:var(--color-base-100);
+
+  #fontt{
+    color: rgb(216, 49, 141);
+  }
 }
 
 /* =======main4===================================================================================================== */
@@ -427,3 +439,142 @@ button{
     color:yellow;
   }
 }
+
+
+/* =====privacy policy page============================================================= */
+
+#bg{
+  background:var(--color-base-100);
+}
+
+/* ===============site map */
+
+#site-map{
+  background: var(--color-base-100);
+ span{
+  width: 250px;
+line-height: 12px;
+
+  
+i,svg,h6{
+  color: var(--color-primary);
+}
+
+ }
+}
+
+
+/* ===========order nw page */
+
+ #orderpage
+ {
+   
+  height: 700px;
+  padding-left: 50px;
+  padding-right: 50px ;
+
+
+  
+ 
+
+.outer{
+   
+  #food{
+    font-size:small;
+    /* border: 1px solid grey;
+   
+    width: 45px;
+    height: 25px; */
+    
+  
+  }
+  #food2{
+    font-size: 15px;
+  }
+    padding: 15px;
+
+      width:  1200px;height: 800px;
+
+      line-height: 20px;
+
+     
+
+      .heading{
+
+       
+        width: fit-content;
+        margin-left: 55px;
+
+        padding: 5px;
+
+        
+            }
+
+       .cards{
+       
+        width:1200px;
+        height: 450px;
+
+        display: flex;
+       justify-content: center;
+
+       align-items: center;
+       gap: 25px;
+        border: none;
+transition: all 0.3s ease;
+
+     
+     
+        .card{
+           border: none;
+             border-radius: 20px;
+          width: 350px;
+
+          height: 420px;
+
+        text-decoration: none;
+        
+      
+  box-shadow:  0px 2px 10px 0px rgba(128, 128, 128, 0.288);
+          
+        #rating{
+          background:var(--color-primary);
+        } 
+      
+          
+        }
+
+
+       }     
+
+
+      
+       }}
+.cards-bg{
+
+  background: var(--color-base-200);
+
+  height: 800px;;
+
+  #ordernow-bg{
+
+   
+    background-color: var(--color-base-100);
+   box-shadow: 1px 3px 2px 2px rgba(128, 128, 128, 0.39);
+label{
+   background: var(--color-base-100);
+
+   color: var(--color-primary);
+
+  
+   border: 1px solid var(--color-primary);
+
+}
+
+
+  }
+
+
+}
+
+ 
