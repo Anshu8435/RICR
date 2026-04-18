@@ -577,4 +577,11 @@ label{
 
 }
 
+/* ============================helpcebter page */
+ #helpcenter-bg{
+
+  background:rgba(0, 0, 0, 0.514);
+
+  backdrop-filter: blur(8px);
  
+ }
