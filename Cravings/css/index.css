@@ -81,6 +81,10 @@ z-index: 99;
    justify-content: center;
 
    row-gap: 10px;
+
+   img{
+    width:1343px ;height:650px ;
+   }
    
 .shade{
   
@@ -623,4 +627,16 @@ label{
 
   backdrop-filter: blur(8px);
  
+ }
+
+ /* =========contact-page */
+ #contact-page{
+  width: 450px; height: 530px;
+ }
+
+
+
+ /* =====feedbackpage */
+ #feedbackpage{
+  width: 480px; height: 550px;
  }
