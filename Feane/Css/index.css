@@ -1,3 +1,12 @@
+:root
+{
+--color-primary: #222831;
+--font-primary: "dancing script", sans-serif;
+
+
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -5,27 +14,51 @@
 
 #text{
    
-font-family: "dancing script";
+font-family:var(--font-primary);
 
     
 }
+
 
 header{
     font-family: "open sans" , sans-serif;
    
 }
 
+
+
 #section-1{
-    font-family: "dancing script";
+    font-family: var(--font-primary);
 
     #box{
-         background: #222831;
+         background: var(--color-primary);
     }
    a{
      font-family: "open sans" , sans-serif;
    }
 
 }
+
+#footer{
+    background: var(--color-primary);
+    
+   
+    p{
+        font-size: 17px;
+
+    }
+    span{
+        font-family: var(--font-primary);
+    }
+
+  
+ 
+    
+}
+
+
+
+
 
 
 
