@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Book-Table</title>
-     <link rel="stylesheet" href="./Css/index.css" />
+    <link rel="stylesheet" href="./Css/index.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -27,12 +27,10 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
       rel="stylesheet"
     />
-</head>
-<body>
-    <header >
-     
-
-      <div class="bg-black py-3  border w-100  position-absolute top-0">
+  </head>
+  <body>
+    <header>
+      <div class="bg-black py-3 border w-100">
         <div class="d-flex justify-content-between mx-5 px-5 text-light">
           <div class="fs-2 text-center fw-semibold" id="text">
             <a
@@ -88,5 +86,116 @@
         </div>
       </div>
     </header>
-</body>
+
+    <section>
+      <div class="d-flex justify-content-around m-5 gap-4">
+        <div class="w-100 ms-5 mt-5">
+          <h1 class="fw-bolder">Book Table</h1>
+          <br />
+          <p
+            class="w-100 rounded-2 border border-black p-3 text-start text-black"
+          >
+            Your Name
+          </p>
+
+          <p
+            class="w-100 rounded-2 border border-black p-3 text-start text-black"
+          >
+            Phone Number
+          </p>
+
+          <p
+            class="w-100 rounded-2 border border-black p-3 text-start text-black"
+          >
+            Your Email
+          </p>
+
+          <select
+            class="w-100 rounded-2 border border-black p-3 text-start text-black"
+          >
+            <option>How Many Persons?</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+          <br />
+          <br />
+
+          <input
+            type="date"
+            id="datetime"
+            class="w-100 rounded-2 border border-black p-3 text-start text-black"
+          />
+          <br />
+          <br />
+          <button
+            class="btn px-5 py-2 text-light border rounded-pill bg-warning"
+          >
+            BOOK NOW
+          </button>
+        </div>
+
+        <div class="me-4">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3750800.6164929634!2d79.29474!3d23.355955!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1776973470682!5m2!1sen!2sin"
+            width="600"
+            height="360"
+            style="border: 0; border-radius: 10px; margin-top: 130px"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div>
+        <div class="d-flex justify-content-center text-light gap-5">
+          <div class="text-center p-5">
+            <span> <p class="fs-3 fw-bold">Contact Us</p></span>
+
+            <p><i class="bi bi-geo-alt-fill fw-light"></i> Location</p>
+            <p>
+              <i class="bi bi-telephone-fill fw-light"></i> Call + 07554907656
+            </p>
+            <p><i class="bi bi-envelope-fill"></i> demo@gmail.com</p>
+          </div>
+
+          <div class="text-center p-5">
+            <span class="fs-2 fw-bold"> Feane </span>
+            <br />
+            <br />
+            <p class="text-light">
+              Necessary, making this the first true generator <br />
+              on the Internet. It uses a dictionary of over 200 <br />
+              Latin words, combined with
+            </p>
+            <div class="d-flex gap-3 justify-content-center">
+              <i class="bi bi-facebook fs-4"></i>
+              <i class="bi bi-twitter fs-4"></i>
+              <i class="bi bi-linkedin fs-4"></i>
+              <i class="bi bi-instagram fs-4"></i>
+              <i class="bi bi-pinterest fs-4"></i>
+            </div>
+          </div>
+          <div class="text-center p-5">
+            <span class="fs-3 fw-bold"> Opening Hours </span>
+            <br /><br />
+            <p>Everyday</p>
+
+            <p>10.00 Am - 10.00 Pm</p>
+          </div>
+        </div>
+        <br />
+        <div class="text-center text-white">
+          <p>© 2026 All Rights Reserved By Free Html Templates</p>
+          <br />
+          <p>© Distributed By ThemeWagon</p>
+          <br />
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
