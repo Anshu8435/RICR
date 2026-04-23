@@ -4,12 +4,25 @@
 }
 
 #text{
-   font-family: "dancing script";
-
+   
+font-family: "dancing script";
 
     
 }
 
 header{
     font-family: "open sans" , sans-serif;
+   
+}
+
+#section-1{
+    font-family: "dancing script";
+
+    #box{
+         background: #222831;
+    }
+   a{
+     font-family: "open sans" , sans-serif;
+   }
+
 }
