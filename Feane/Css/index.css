@@ -82,8 +82,10 @@ section{
 
 #menu{
 
-    div{
+    #card{
         background: var(--color-primary);
+    
     }
+   
     
 }
