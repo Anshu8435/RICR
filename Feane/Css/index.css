@@ -39,6 +39,10 @@ header{
 
 }
 
+#customer-section{
+    background: var(--color-primary);
+}
+
 #footer{
     background: var(--color-primary);
     
