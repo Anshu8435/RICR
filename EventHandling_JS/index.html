@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href=" https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+  </head>
+  <body>
+    <h1>Event Handling</h1>
+
+    <div id="bulb1">Bulb</div>
+
+    <button id="bulbOn" onclick="BulbON()">ON</button>
+    <button id="bulbOf" onclick="BulbOFF()">OFF</button>
+    <button id="bulbRed" onclick="BulbRed()">Red</button>
+    <button id="bulbGreen" onclick="BulbGreen()">Green</button>
+    <button id="bulbBlue" onclick="BulbBlue()">Blue</button>
+
+    <button id="bulbBlack">Black</button>
+
+    <input type="color" id="BulbColor" />
+
+    <h6>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae enim
+      quia cupiditate officia eligendi, molestiae nemo blanditiis et rem vero
+      nesciunt quos quaerat aspernatur, animi aperiam aut architecto maiores
+      quas.
+    </h6>
+
+    <br /><br /><br />
+
+    <section>
+      <div class=" m-5 d-flex  border border-dark  rounded-3 justify-content-center">
+        <div class=" border p-lg-5" id="backg">
+          <h1 id="head">This is Heading</h1>
+          <p id="parag">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit <br />
+            Doloribus eos repellat obcaecati laboriosam <br />
+            totam odio adipisci, sequi facere. <br />
+            Deleniti labore excepturi tempora magni <br>optio ipsa ipsam! Sint
+            voluptatibus animi facilis?
+          </p>
+        </div>
+        <div class=" border text-center p-3">
+          <p>Background Color <input type="color" id="backcolor" /></p>
+          <p>Heading Color <input type="color" id="headcolor" /></p>
+          <p>Paragraph Color <input type="color" id="paragcolor" /></p>
+
+          <button id="reset" onclick="reset()">Reset All</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -9,7 +9,7 @@
 
 *{
     margin: 0px;
-    padding: 0px;
+    padding:0px;
 }
 
 #text{
@@ -86,6 +86,7 @@ section{
 
 #menu{
 
+   
     #card{
         background: var(--color-primary);
     
@@ -93,3 +94,41 @@ section{
    
     
 }
+
+#mydiv{
+    grid-template-columns: auto auto auto auto;
+}
+
+
+   @media screen and (max-width:1024px){
+
+    #mydiv{
+
+        grid-template-columns: auto auto auto;
+
+
+    }
+   } 
+
+
+   @media screen and (max-width:760px){
+
+    #mydiv{
+
+        grid-template-columns: auto auto ;
+
+
+    }
+   } 
+
+
+   @media screen and (max-width:420px){
+
+    #mydiv{
+
+        grid-template-columns: auto;
+
+
+    }
+   } 
+
