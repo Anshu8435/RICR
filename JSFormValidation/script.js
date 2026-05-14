@@ -1,5 +1,3 @@
-
-
 function submit() {
   const fn = document.getElementById("fullName").value;
 
@@ -21,4 +19,18 @@ function submit() {
   if (!/^[6-9]\d{9}$/.test(ph)) {
     document.getElementById("phoneError").innerText = "Invalid Phone";
   }
+}
+
+function validateForm() {
+  let name = document.getElementById("name").value;
+  let email = document.getElementById("email").value;
+  let phone = document.getElementById("phone").value;
+
+  let namePattern = !/^[A-Za-z]+$/;
+  let emailPattern = !/^[A-Za-z\d]+@gmail.com$/;
+  let phonePattern = !/^[6-9]\d{9}$/;
+
+  console.log("name Invalid", namePattern.test(name));
+  console.log("email Invalid", emailPattern.test(email));
+  console.log("phone Invalid", phonePattern.test(phone));
 }
