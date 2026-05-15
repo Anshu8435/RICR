@@ -57,3 +57,14 @@ document
   .addEventListener("reset", (event) => {
     window.location.reload();
   });
+
+function validateData(data) {
+  document.querySelectorAll(".manualError").forEach((item) => {
+    item.innertext = "";
+  });
+
+  let isValid = true;
+
+  
+
+}
