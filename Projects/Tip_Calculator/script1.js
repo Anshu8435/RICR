@@ -1,11 +1,17 @@
-document.querySelector("form").addEventListener("Submit", (event) => {
+document.getElementById("tipForm").addEventListener("submit", function(event) {
   event.preventDefault();
 
-  const PAmount = document.getElementById("Billamount").value;
-  const Tip = document.getElementById("tip").value;
-  const Person = document.getElementById("person").value;
+  const billAmount = Number(document.getElementById("billAmount").value);
+  const service = Number(document.getElementById("service").value);
+  const persons = Number(document.getElementById("persons").value);
 
-  const Amount = Number(PAmount/Person);
+  document.getElementById("billAmount").value = "";
+  document.getElementById("service").value = "";
+  document.getElementById("persons").value = "";
 
-  document.getElementById("MyTip").innerText = Amount;
+  const totalTip = billAmount * service;
+
+  const tipPerPerson = totalTip / persons;
+
+  document.getElementById("tipResult").textContent = tipPerPerson.toFixed(2);
 });
